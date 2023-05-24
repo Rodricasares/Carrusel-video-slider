@@ -1,0 +1,28 @@
+.carousel{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+}
+video  {
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit:cover;
+  }
+  .carousel-item{
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    height: 100vh;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+  }
