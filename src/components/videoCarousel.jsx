@@ -13,31 +13,31 @@ function VideoCarousel() {
       id: 0,
       title: "Marruecos",
       src: video,
-      credit: "Disfruta de las esencias de Marruecos",
+      credit: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
     },
     {
       id: 1,
       title: "Casa Blanca",
       src: video1,
-      credit: "Casa Blanca ...",
+      credit: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. ",
     },
 
     {
       id: 2,
       title: "Chaouen",
       src: video2,
-      credit: "Una maravilla en las Montañas",
+      credit: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
     },
 
     {
       id: 3,
       title: "Fez",
       src: video3,
-      credit: "Su medina la más grande del mundo",
+      credit: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
     },
   ];
   return (
-    <div className="">
+    <section className='home' >
       <Carousel>
         {videoInfo.map((videoProp) => {
           return (
@@ -45,19 +45,21 @@ function VideoCarousel() {
               <ReactPlayer
                 url={videoProp.src}
                 playing={true}
-
+                pip={true}
                 loop={true}
                 muted={true}
+              
               />
               <Carousel.Caption>
-                <h3>{videoProp.title}</h3>
-                <p>{videoProp.credit}</p>
+                <h1 className='titleCarousel'>{videoProp.title}</h1>
+                <h2 className='titleCarousel1'>{videoProp.title}</h2>
+                <p className='description' >{videoProp.credit}</p>
               </Carousel.Caption>
             </Carousel.Item>
           );
         })}
       </Carousel>
-    </div>
+    </section>
   );
 }
 export default VideoCarousel;
