@@ -1,17 +1,22 @@
 /*Configuracion pantalla pc*/ 
 /*----------------------------*/
 
+
+
+.barras {
+display: none;
+}
+
 .desplegable {
   background: #1e1e1e;
   position: absolute;
   z-index: 1;
   width: 100%;
+  *height: 46px;
   *opacity: -1.6;
 }
 
-.barras {
-  display: none;
-}
+
 
 ul {
   padding: 0;
@@ -34,7 +39,8 @@ nav a {
 }
 
 ul li a:hover {
-  background: #ff5722;
+  background: #E88456;
+  color: #fff;
 }
 
 /*Configuracion pantalla tablet*/
@@ -46,7 +52,6 @@ ul li a:hover {
 
   .desplegable {
     z-index: 1;
-
     transform: translate(-100%);
     transition: 0.5s;
     font-size: 1.5rem;
@@ -88,8 +93,8 @@ li a{
     transform: translate(0%);
     transition: 0.5s;
     width: 50%;
-    background: rgba(30, 30, 30, 30);
-    backdrop-filter: blur(1px);
+    background: rgba(30, 30, 30, 0.8);
+    backdrop-filter: blur(1.5px);
 
   }
   /*clase para cambiar menu a estilo X*/

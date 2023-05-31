@@ -34,7 +34,7 @@ video {
 .titleCarousel {
     max-width: 350px;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 5.6rem;
     text-align: start;
     color: #fff;
     display: flex;
@@ -44,10 +44,10 @@ video {
 
 .titleCarousel1 {
     font-weight: 900;
-    font-size: 2.7rem;
+    font-size: 4.7rem;
     text-align: start;
     color: #E88456;
-    margin-top: -18px;
+    margin-top: -35px;
     display: flex;
 }
 
@@ -74,3 +74,27 @@ video {
 .carousel:hover .carousel-control-next-icon {
     visibility: visible;
 }
+
+/*Configuracion pantalla tablet*/
+@media (max-width: 850px) {
+          .titleCarousel {
+            max-width: 350px;
+            font-weight: 900;
+            font-size: 2.9rem;
+            text-align: start;
+            color: #fff;
+            display: flex;
+        
+        
+        }
+        
+        .titleCarousel1 {
+           *max-width: 350px;
+            font-weight: 900;
+            font-size: 3.7rem;
+            text-align: start;
+            color: #E88456;
+            margin-top: -30px;
+            display: flex;
+        }
+   }

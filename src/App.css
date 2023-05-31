@@ -9,8 +9,19 @@
 .marroco{
   display: flex;
   flex-direction:column;
+    
 }
 
+.tourstitle{
+  *max-width: 350px;
+  font-weight: 900;
+  font-size: 2.6rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
 /*
   
 .home{
