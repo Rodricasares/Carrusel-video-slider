@@ -1,0 +1,9 @@
+.footer h3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: black;
+    height: 300px;
+}

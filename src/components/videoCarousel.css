@@ -91,10 +91,10 @@ video {
         .titleCarousel1 {
            *max-width: 350px;
             font-weight: 900;
-            font-size: 3.7rem;
+            font-size: 2.6rem;
             text-align: start;
             color: #E88456;
-            margin-top: -30px;
+            margin-top: -25px;
             display: flex;
         }
    }
