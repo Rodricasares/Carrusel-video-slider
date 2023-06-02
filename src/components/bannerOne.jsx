@@ -13,7 +13,7 @@ function BannerOne() {
               consectetur. 
             </p>
             <button className="buttonNeed">Contactar</button>
-          </div>
+          </div>.
         </div>
       </section>
     </>

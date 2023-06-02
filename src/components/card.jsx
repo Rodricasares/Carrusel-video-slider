@@ -4,11 +4,12 @@ function Card() {
   return (
     <section>                   
       <div className="container">
-      <div className="card">
+      <div className="card">   
+       
       <figure>
             <img src='http://www.marruecostrip.com/wp-content/uploads/2019/07/Merzouga-desert.jpg' alt='pueblo_marruecos' />
         </figure>
-     
+ 
       <div className="info_card">
      
         <h3>Titulo</h3>

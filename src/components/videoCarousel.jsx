@@ -37,7 +37,7 @@ function VideoCarousel() {
     },
   ];
   return (
-    <section className='home' >
+    <section >
       <Carousel>
         {videoInfo.map((videoProp) => {
           return (
@@ -51,9 +51,11 @@ function VideoCarousel() {
               
               />
               <Carousel.Caption>
+                <div className='container_carousel'>
                 <h1 className='titleCarousel'>{videoProp.title}</h1>
                 <h2 className='titleCarousel1'>{videoProp.title}</h2>
                 <p className='description' >{videoProp.credit}</p>
+                </div>
               </Carousel.Caption>
             </Carousel.Item>
           );

@@ -9,6 +9,7 @@
 }
 
 .card {
+
     width: 100%;
     margin: 20px;
     border-radius: 6px;
@@ -18,7 +19,31 @@
     cursor: default;
     transition: all 400ms ease;
 }
+/*
+.wave {
+    width: 100%;
+    height: 100%;
+    background: #E88456;
 
+    *position: absolute;
+    *top: 515px;
+    *left: 0;
+    *overflow: hidden;
+  }
+  
+  .w1 {
+    animation: w1 10s linear infinite;
+  }
+
+@keyframes w1 {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: auto;
+    }
+  }
+*/
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
@@ -31,6 +56,7 @@
 }
 
 .card .info_card {
+
     padding: 15px;
     text-align: center;
 }
@@ -42,6 +68,8 @@
 }
 
 .card .info_card h3 {
+    font-family: 'Alkatra', cursive;
+
     font-weight: 400;
     margin-bottom: 15px;
 

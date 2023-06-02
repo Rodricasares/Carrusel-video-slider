@@ -31,7 +31,22 @@ video {
     transition: transform .6s ease-in-out;
 }
 
+.container_carousel {
+    background: rgba(30, 30, 30, 0.5);
+    /*opacidad*/
+    backdrop-filter: blur(1.5px);
+    padding: 10px;
+    position: relative;
+    top: -60px;
+    left: -105px;
+    border-radius: 20px 20px 20px 20px;
+    width: auto;
+    height: auto;
+}
+
 .titleCarousel {
+    font-family: 'Alkatra', cursive;
+
     max-width: 350px;
     font-weight: 900;
     font-size: 5.6rem;
@@ -77,24 +92,47 @@ video {
 
 /*Configuracion pantalla tablet*/
 @media (max-width: 850px) {
-          .titleCarousel {
-            max-width: 350px;
-            font-weight: 900;
-            font-size: 2.9rem;
-            text-align: start;
-            color: #fff;
-            display: flex;
-        
-        
-        }
-        
-        .titleCarousel1 {
-           *max-width: 350px;
-            font-weight: 900;
-            font-size: 2.6rem;
-            text-align: start;
-            color: #E88456;
-            margin-top: -25px;
-            display: flex;
-        }
-   }
+    .titleCarousel {
+        max-width: 350px;
+        font-weight: 900;
+        font-size: 2.9rem;
+        text-align: start;
+        color: #fff;
+        display: flex;
+
+
+    }
+
+    .titleCarousel1 {
+        max-width: 350px;
+        font-weight: 900;
+        font-size: 2.6rem;
+        text-align: start;
+        color: #E88456;
+        margin-top: -25px;
+        display: flex;
+    }
+
+    .container_carousel {
+        height: auto;
+        position: relative;
+        top: -120px;
+        left: 0;
+    }
+}
+
+@media (max-width:500px) {
+    .container_carousel {
+        position: relative;
+        top: -40px;
+        left: 0;
+    }
+}
+
+@media (max-width:300px) {
+    .container_carousel {
+        position: relative;
+        top: 0px;
+        left: -30px;
+    }
+}
