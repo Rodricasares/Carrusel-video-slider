@@ -35,44 +35,36 @@ video {
     background: rgba(30, 30, 30, 0.5);
     /*opacidad*/
     backdrop-filter: blur(1.5px);
-    padding: 10px;
+    padding: 30px;
     position: relative;
-    top: -60px;
-    left: -105px;
+    top: 0;
+    left: 0;
     border-radius: 20px 20px 20px 20px;
     width: auto;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 50px;
+
 }
 
 .titleCarousel {
     font-family: 'Alkatra', cursive;
-
-    max-width: 350px;
-    font-weight: 900;
-    font-size: 5.6rem;
-    text-align: start;
     color: #fff;
-    display: flex;
+    font-size: 7vw;
 
-
+ 
 }
 
 .titleCarousel1 {
     font-weight: 900;
-    font-size: 4.7rem;
-    text-align: start;
+    font-size: 10vw;
     color: #E88456;
-    margin-top: -35px;
-    display: flex;
+    margin-top:-3vw;
 }
 
-.description {
-    display: flex;
-    margin-bottom: 3rem;
-    text-align: start;
 
-
-}
 
 .carousel .carousel-control-prev-icon {
     visibility: hidden;
@@ -92,47 +84,38 @@ video {
 
 /*Configuracion pantalla tablet*/
 @media (max-width: 850px) {
-    .titleCarousel {
-        max-width: 350px;
-        font-weight: 900;
-        font-size: 2.9rem;
-        text-align: start;
-        color: #fff;
-        display: flex;
 
+    .carousel {
 
-    }
-
-    .titleCarousel1 {
-        max-width: 350px;
-        font-weight: 900;
-        font-size: 2.6rem;
-        text-align: start;
-        color: #E88456;
-        margin-top: -25px;
-        display: flex;
-    }
-
-    .container_carousel {
-        height: auto;
-        position: relative;
-        top: -120px;
+        z-index: 000;
+        position: absolute;
+        top: 0;
         left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
     }
+
 }
 
 @media (max-width:500px) {
-    .container_carousel {
-        position: relative;
-        top: -40px;
+
+    .carousel {
+
+        z-index: 000;
+        position: absolute;
+        top: 0;
         left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
     }
+
+
 }
 
 @media (max-width:300px) {
-    .container_carousel {
-        position: relative;
-        top: 0px;
-        left: -30px;
-    }
+
+
+
 }

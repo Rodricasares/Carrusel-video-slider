@@ -51,6 +51,7 @@ function VideoCarousel() {
               
               />
               <Carousel.Caption>
+                
                 <div className='container_carousel'>
                 <h1 className='titleCarousel'>{videoProp.title}</h1>
                 <h2 className='titleCarousel1'>{videoProp.title}</h2>
