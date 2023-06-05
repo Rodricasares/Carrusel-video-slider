@@ -13,9 +13,9 @@
     width: 100%;
     margin: 20px;
     border-radius: 6px;
-    overflow: hidden;
     background: #fff;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
     cursor: default;
     transition: all 400ms ease;
 }
@@ -75,13 +75,20 @@
 
 }
 .icon{
+    width: 8%;
+    height: 8%;
    color: #6a6a6a;
 }
 .icon:hover {
     color: #E88456;   
-    padding: 3px;
+    padding: 2px;
     border: 1px solid #E88456;
     border-radius: 20px;
+
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: default;
+    transition: all 400ms ease;
 }
 
 /*Configuracion pantalla tablet*/
