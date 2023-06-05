@@ -19,31 +19,7 @@
     cursor: default;
     transition: all 400ms ease;
 }
-/*
-.wave {
-    width: 100%;
-    height: 100%;
-    background: #E88456;
 
-    *position: absolute;
-    *top: 515px;
-    *left: 0;
-    *overflow: hidden;
-  }
-  
-  .w1 {
-    animation: w1 10s linear infinite;
-  }
-
-@keyframes w1 {
-    0% {
-      margin-left: 0;
-    }
-    100% {
-      margin-left: auto;
-    }
-  }
-*/
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
@@ -69,8 +45,8 @@
 
 .card .info_card h3 {
     font-family: 'Alkatra', cursive;
-
     font-weight: 400;
+    color: #F6B60C;
     margin-bottom: 15px;
 
 }
@@ -91,11 +67,28 @@
     background: #E88456;
     color: #fff;
 }
+
+.iconCard{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.icon{
+   color: #6a6a6a;
+}
+.icon:hover {
+    color: #E88456;   
+    padding: 3px;
+    border: 1px solid #E88456;
+    border-radius: 20px;
+}
+
 /*Configuracion pantalla tablet*/
 @media (max-width: 850px) {
     .container {
         flex-wrap: wrap;
-        justify-content: start;
+        *justify-content: start;
     }
 
 }

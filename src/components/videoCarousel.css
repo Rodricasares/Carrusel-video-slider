@@ -40,7 +40,7 @@ video {
     top: 0;
     left: 0;
     border-radius: 20px 20px 20px 20px;
-    width: auto;
+    max-width: auto ;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -52,18 +52,20 @@ video {
 .titleCarousel {
     font-family: 'Alkatra', cursive;
     color: #fff;
-    font-size: 7vw;
+    font-size: 6vw;
 
  
 }
 
 .titleCarousel1 {
     font-weight: 900;
-    font-size: 10vw;
+    font-size: 8vw;
     color: #E88456;
     margin-top:-3vw;
 }
-
+.description{
+    font-weight: 400;
+}
 
 
 .carousel .carousel-control-prev-icon {
